@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.variant.tests.FirstSeleniumJUnitTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 26.251 sec
