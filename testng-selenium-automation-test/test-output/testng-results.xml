@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="First Suite" duration-ms="7822" started-at="2020-08-25T21:24:17Z" finished-at="2020-08-25T21:24:25Z">
+    <groups>
+    </groups>
+    <test name="com-example-tests" duration-ms="7795" started-at="2020-08-25T21:24:17Z" finished-at="2020-08-25T21:24:25Z">
+      <class name="com.variant.testng.FirstSeleniumTestNgTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.variant.testng.FirstSeleniumTestNgTest@2133c8f8]" name="before" is-config="true" duration-ms="4409" started-at="2020-08-25T21:24:17Z" finished-at="2020-08-25T21:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="testFacebookDotCom()[pri:0, instance:com.variant.testng.FirstSeleniumTestNgTest@2133c8f8]" name="testFacebookDotCom" duration-ms="1314" started-at="2020-08-25T21:24:21Z" finished-at="2020-08-25T21:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookDotCom -->
+        <test-method status="PASS" signature="testGoogleDotCom()[pri:0, instance:com.variant.testng.FirstSeleniumTestNgTest@2133c8f8]" name="testGoogleDotCom" duration-ms="1420" started-at="2020-08-25T21:24:23Z" finished-at="2020-08-25T21:24:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleDotCom -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.variant.testng.FirstSeleniumTestNgTest@2133c8f8]" name="after" is-config="true" duration-ms="635" started-at="2020-08-25T21:24:24Z" finished-at="2020-08-25T21:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.variant.testng.FirstSeleniumTestNgTest -->
+    </test> <!-- com-example-tests -->
+    <test name="ChromeSpecificTests" duration-ms="2" started-at="2020-08-25T21:24:25Z" finished-at="2020-08-25T21:24:25Z">
+      <class name="com.variant.tests.MultipleBrowserTest">
+        <test-method status="PASS" signature="runInBrowser(java.lang.String)[pri:0, instance:com.variant.tests.MultipleBrowserTest@6442b0a6]" name="runInBrowser" duration-ms="0" started-at="2020-08-25T21:24:25Z" finished-at="2020-08-25T21:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInBrowser -->
+      </class> <!-- com.variant.tests.MultipleBrowserTest -->
+    </test> <!-- ChromeSpecificTests -->
+    <test name="FirefoxSpecificTests" duration-ms="1" started-at="2020-08-25T21:24:25Z" finished-at="2020-08-25T21:24:25Z">
+      <class name="com.variant.tests.MultipleBrowserTest">
+        <test-method status="PASS" signature="runInBrowser(java.lang.String)[pri:0, instance:com.variant.tests.MultipleBrowserTest@566776ad]" name="runInBrowser" duration-ms="1" started-at="2020-08-25T21:24:25Z" finished-at="2020-08-25T21:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInBrowser -->
+      </class> <!-- com.variant.tests.MultipleBrowserTest -->
+    </test> <!-- FirefoxSpecificTests -->
+  </suite> <!-- First Suite -->
+</testng-results>
